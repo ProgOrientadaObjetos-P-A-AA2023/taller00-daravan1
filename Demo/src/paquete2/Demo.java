@@ -19,7 +19,7 @@ public class Demo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.printf("%s con %d\n", Mensaje.obtenerFrase(), 
+        System.out.printf("%s con %d habitantes\n", Mensaje.obtenerFrase(), 
                 Valor.obtenerHabitantes());
     }
     
