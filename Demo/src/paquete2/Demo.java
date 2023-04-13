@@ -5,8 +5,8 @@
  */
 package paquete2;
 
-import static paquete1.Mensaje.obtenerFrase;
-import static paquete3.Valor.obtenerHabitantes;
+import  paquete1.Mensaje;
+import  paquete3.Valor;
 
 
 /**
@@ -19,9 +19,8 @@ public class Demo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String mensaje = obtenerFrase();
-        int valor = obtenerHabitantes();
-        System.out.printf("%s con %d\n", mensaje, valor);
+        System.out.printf("%s con %d\n", Mensaje.obtenerFrase(), 
+                Valor.obtenerHabitantes());
     }
     
 }
